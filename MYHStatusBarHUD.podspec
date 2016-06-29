@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author      = { "maoyuhu" => "982140599@qq.com" }
   s.source       = { :git => "https://github.com/maoyuhu/MYHStatusIndicator.git", :tag => s.version }
   s.description  = "simple and easy A short description of MYHStatusBarHUD"
-  s.source_files  = "MYHStatusBarHUD"
+  s.source_files  = "MYHStatusBarHUD/*.{m,h}"
   s.resources    = "MYHStatusBarHUD/MYHStatusBarHUD.bundle"
   s.requires_arc = true
 
