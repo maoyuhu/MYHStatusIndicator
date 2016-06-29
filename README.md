@@ -21,7 +21,7 @@
 
 + (void)showSuccess:(NSString *)msg;
 
-  显示失败的指示器
+  显示失败的指示器;
 
 
 
