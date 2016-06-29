@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1372AA071D235B4800E276AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1372AA061D235B4800E276AB /* main.m */; };
+		1372AA0A1D235B4800E276AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1372AA091D235B4800E276AB /* AppDelegate.m */; };
+		1372AA0D1D235B4800E276AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1372AA0C1D235B4800E276AB /* ViewController.m */; };
+		1372AA101D235B4800E276AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1372AA0E1D235B4800E276AB /* Main.storyboard */; };
+		1372AA121D235B4800E276AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1372AA111D235B4800E276AB /* Assets.xcassets */; };
+		1372AA151D235B4800E276AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1372AA131D235B4800E276AB /* LaunchScreen.storyboard */; };
+		1372AA201D235B4800E276AB /* MYHStatusIndicatorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1372AA1F1D235B4800E276AB /* MYHStatusIndicatorDemoTests.m */; };
+		1372AA2B1D235B4800E276AB /* MYHStatusIndicatorDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1372AA2A1D235B4800E276AB /* MYHStatusIndicatorDemoUITests.m */; };
+		13E48BA51D235D3900AF0A17 /* MYHStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13E48BA21D235D3900AF0A17 /* MYHStatusBarHUD.bundle */; };
+		13E48BA61D235D3900AF0A17 /* MYHStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E48BA41D235D3900AF0A17 /* MYHStatusBarHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1372AA1C1D235B4800E276AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1372A9FA1D235B4800E276AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1372AA011D235B4800E276AB;
+			remoteInfo = MYHStatusIndicatorDemo;
+		};
+		1372AA271D235B4800E276AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1372A9FA1D235B4800E276AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1372AA011D235B4800E276AB;
+			remoteInfo = MYHStatusIndicatorDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1372AA021D235B4800E276AB /* MYHStatusIndicatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYHStatusIndicatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1372AA061D235B4800E276AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1372AA081D235B4800E276AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1372AA091D235B4800E276AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1372AA0B1D235B4800E276AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1372AA0C1D235B4800E276AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1372AA0F1D235B4800E276AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1372AA111D235B4800E276AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1372AA141D235B4800E276AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1372AA161D235B4800E276AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1372AA1B1D235B4800E276AB /* MYHStatusIndicatorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYHStatusIndicatorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1372AA1F1D235B4800E276AB /* MYHStatusIndicatorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYHStatusIndicatorDemoTests.m; sourceTree = "<group>"; };
+		1372AA211D235B4800E276AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1372AA261D235B4800E276AB /* MYHStatusIndicatorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYHStatusIndicatorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1372AA2A1D235B4800E276AB /* MYHStatusIndicatorDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYHStatusIndicatorDemoUITests.m; sourceTree = "<group>"; };
+		1372AA2C1D235B4800E276AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13E48BA21D235D3900AF0A17 /* MYHStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MYHStatusBarHUD.bundle; sourceTree = "<group>"; };
+		13E48BA31D235D3900AF0A17 /* MYHStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYHStatusBarHUD.h; sourceTree = "<group>"; };
+		13E48BA41D235D3900AF0A17 /* MYHStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYHStatusBarHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1372A9FF1D235B4800E276AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1372AA181D235B4800E276AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1372AA231D235B4800E276AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1372A9F91D235B4800E276AB = {
+			isa = PBXGroup;
+			children = (
+				1372AA041D235B4800E276AB /* MYHStatusIndicatorDemo */,
+				1372AA1E1D235B4800E276AB /* MYHStatusIndicatorDemoTests */,
+				1372AA291D235B4800E276AB /* MYHStatusIndicatorDemoUITests */,
+				1372AA031D235B4800E276AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1372AA031D235B4800E276AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1372AA021D235B4800E276AB /* MYHStatusIndicatorDemo.app */,
+				1372AA1B1D235B4800E276AB /* MYHStatusIndicatorDemoTests.xctest */,
+				1372AA261D235B4800E276AB /* MYHStatusIndicatorDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1372AA041D235B4800E276AB /* MYHStatusIndicatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				13E48BA11D235D3900AF0A17 /* MYHStatusBarHUD */,
+				1372AA081D235B4800E276AB /* AppDelegate.h */,
+				1372AA091D235B4800E276AB /* AppDelegate.m */,
+				1372AA0B1D235B4800E276AB /* ViewController.h */,
+				1372AA0C1D235B4800E276AB /* ViewController.m */,
+				1372AA0E1D235B4800E276AB /* Main.storyboard */,
+				1372AA111D235B4800E276AB /* Assets.xcassets */,
+				1372AA131D235B4800E276AB /* LaunchScreen.storyboard */,
+				1372AA161D235B4800E276AB /* Info.plist */,
+				1372AA051D235B4800E276AB /* Supporting Files */,
+			);
+			path = MYHStatusIndicatorDemo;
+			sourceTree = "<group>";
+		};
+		1372AA051D235B4800E276AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1372AA061D235B4800E276AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1372AA1E1D235B4800E276AB /* MYHStatusIndicatorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1372AA1F1D235B4800E276AB /* MYHStatusIndicatorDemoTests.m */,
+				1372AA211D235B4800E276AB /* Info.plist */,
+			);
+			path = MYHStatusIndicatorDemoTests;
+			sourceTree = "<group>";
+		};
+		1372AA291D235B4800E276AB /* MYHStatusIndicatorDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1372AA2A1D235B4800E276AB /* MYHStatusIndicatorDemoUITests.m */,
+				1372AA2C1D235B4800E276AB /* Info.plist */,
+			);
+			path = MYHStatusIndicatorDemoUITests;
+			sourceTree = "<group>";
+		};
+		13E48BA11D235D3900AF0A17 /* MYHStatusBarHUD */ = {
+			isa = PBXGroup;
+			children = (
+				13E48BA21D235D3900AF0A17 /* MYHStatusBarHUD.bundle */,
+				13E48BA31D235D3900AF0A17 /* MYHStatusBarHUD.h */,
+				13E48BA41D235D3900AF0A17 /* MYHStatusBarHUD.m */,
+			);
+			name = MYHStatusBarHUD;
+			path = ../../MYHStatusBarHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1372AA011D235B4800E276AB /* MYHStatusIndicatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1372AA2F1D235B4800E276AB /* Build configuration list for PBXNativeTarget "MYHStatusIndicatorDemo" */;
+			buildPhases = (
+				1372A9FE1D235B4800E276AB /* Sources */,
+				1372A9FF1D235B4800E276AB /* Frameworks */,
+				1372AA001D235B4800E276AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MYHStatusIndicatorDemo;
+			productName = MYHStatusIndicatorDemo;
+			productReference = 1372AA021D235B4800E276AB /* MYHStatusIndicatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1372AA1A1D235B4800E276AB /* MYHStatusIndicatorDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1372AA321D235B4800E276AB /* Build configuration list for PBXNativeTarget "MYHStatusIndicatorDemoTests" */;
+			buildPhases = (
+				1372AA171D235B4800E276AB /* Sources */,
+				1372AA181D235B4800E276AB /* Frameworks */,
+				1372AA191D235B4800E276AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1372AA1D1D235B4800E276AB /* PBXTargetDependency */,
+			);
+			name = MYHStatusIndicatorDemoTests;
+			productName = MYHStatusIndicatorDemoTests;
+			productReference = 1372AA1B1D235B4800E276AB /* MYHStatusIndicatorDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1372AA251D235B4800E276AB /* MYHStatusIndicatorDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1372AA351D235B4800E276AB /* Build configuration list for PBXNativeTarget "MYHStatusIndicatorDemoUITests" */;
+			buildPhases = (
+				1372AA221D235B4800E276AB /* Sources */,
+				1372AA231D235B4800E276AB /* Frameworks */,
+				1372AA241D235B4800E276AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1372AA281D235B4800E276AB /* PBXTargetDependency */,
+			);
+			name = MYHStatusIndicatorDemoUITests;
+			productName = MYHStatusIndicatorDemoUITests;
+			productReference = 1372AA261D235B4800E276AB /* MYHStatusIndicatorDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1372A9FA1D235B4800E276AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = myh;
+				TargetAttributes = {
+					1372AA011D235B4800E276AB = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = BSH94WNDE6;
+					};
+					1372AA1A1D235B4800E276AB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1372AA011D235B4800E276AB;
+					};
+					1372AA251D235B4800E276AB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1372AA011D235B4800E276AB;
+					};
+				};
+			};
+			buildConfigurationList = 1372A9FD1D235B4800E276AB /* Build configuration list for PBXProject "MYHStatusIndicatorDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1372A9F91D235B4800E276AB;
+			productRefGroup = 1372AA031D235B4800E276AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1372AA011D235B4800E276AB /* MYHStatusIndicatorDemo */,
+				1372AA1A1D235B4800E276AB /* MYHStatusIndicatorDemoTests */,
+				1372AA251D235B4800E276AB /* MYHStatusIndicatorDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1372AA001D235B4800E276AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1372AA151D235B4800E276AB /* LaunchScreen.storyboard in Resources */,
+				1372AA121D235B4800E276AB /* Assets.xcassets in Resources */,
+				13E48BA51D235D3900AF0A17 /* MYHStatusBarHUD.bundle in Resources */,
+				1372AA101D235B4800E276AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1372AA191D235B4800E276AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1372AA241D235B4800E276AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1372A9FE1D235B4800E276AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E48BA61D235D3900AF0A17 /* MYHStatusBarHUD.m in Sources */,
+				1372AA0D1D235B4800E276AB /* ViewController.m in Sources */,
+				1372AA0A1D235B4800E276AB /* AppDelegate.m in Sources */,
+				1372AA071D235B4800E276AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1372AA171D235B4800E276AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1372AA201D235B4800E276AB /* MYHStatusIndicatorDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1372AA221D235B4800E276AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1372AA2B1D235B4800E276AB /* MYHStatusIndicatorDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1372AA1D1D235B4800E276AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1372AA011D235B4800E276AB /* MYHStatusIndicatorDemo */;
+			targetProxy = 1372AA1C1D235B4800E276AB /* PBXContainerItemProxy */;
+		};
+		1372AA281D235B4800E276AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1372AA011D235B4800E276AB /* MYHStatusIndicatorDemo */;
+			targetProxy = 1372AA271D235B4800E276AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1372AA0E1D235B4800E276AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1372AA0F1D235B4800E276AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1372AA131D235B4800E276AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1372AA141D235B4800E276AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1372AA2D1D235B4800E276AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1372AA2E1D235B4800E276AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1372AA301D235B4800E276AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MYHStatusIndicatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hym.MYHStatusIndicatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		1372AA311D235B4800E276AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MYHStatusIndicatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hym.MYHStatusIndicatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		1372AA331D235B4800E276AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MYHStatusIndicatorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hym.MYHStatusIndicatorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MYHStatusIndicatorDemo.app/MYHStatusIndicatorDemo";
+			};
+			name = Debug;
+		};
+		1372AA341D235B4800E276AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MYHStatusIndicatorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hym.MYHStatusIndicatorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MYHStatusIndicatorDemo.app/MYHStatusIndicatorDemo";
+			};
+			name = Release;
+		};
+		1372AA361D235B4800E276AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MYHStatusIndicatorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hym.MYHStatusIndicatorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MYHStatusIndicatorDemo;
+			};
+			name = Debug;
+		};
+		1372AA371D235B4800E276AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MYHStatusIndicatorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hym.MYHStatusIndicatorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MYHStatusIndicatorDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1372A9FD1D235B4800E276AB /* Build configuration list for PBXProject "MYHStatusIndicatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1372AA2D1D235B4800E276AB /* Debug */,
+				1372AA2E1D235B4800E276AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1372AA2F1D235B4800E276AB /* Build configuration list for PBXNativeTarget "MYHStatusIndicatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1372AA301D235B4800E276AB /* Debug */,
+				1372AA311D235B4800E276AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1372AA321D235B4800E276AB /* Build configuration list for PBXNativeTarget "MYHStatusIndicatorDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1372AA331D235B4800E276AB /* Debug */,
+				1372AA341D235B4800E276AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1372AA351D235B4800E276AB /* Build configuration list for PBXNativeTarget "MYHStatusIndicatorDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1372AA361D235B4800E276AB /* Debug */,
+				1372AA371D235B4800E276AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1372A9FA1D235B4800E276AB /* Project object */;
+}
